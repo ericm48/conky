@@ -20,8 +20,8 @@ require 'cairo'
 gauge = {
 {
     name='cpu',                    arg='cpu0',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=66,
+    x=80,                          y=150,
+    graph_radius=72,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -41,8 +41,8 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu1',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=60,
+    x=80,                          y=150,
+    graph_radius=66,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -62,8 +62,8 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu2',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=54,
+    x=80,                          y=150,
+    graph_radius=60,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -83,8 +83,8 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu3',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=48,
+    x=80,                          y=150,
+    graph_radius=54,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -106,8 +106,8 @@ gauge = {
 
 {
     name='cpu',                    arg='cpu4',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=42,
+    x=80,                          y=150,
+    graph_radius=48,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -127,8 +127,8 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu5',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=26,
+    x=80,                          y=150,
+    graph_radius=36,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -148,8 +148,8 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu6',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=20,
+    x=80,                          y=150,
+    graph_radius=30,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -169,8 +169,8 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu7',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=14,
+    x=80,                          y=150,
+    graph_radius=24,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -190,8 +190,8 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu8',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=8,
+    x=80,                          y=150,
+    graph_radius=18,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -211,8 +211,8 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu9',                  max_value=100,
-    x=70,                          y=130,
-    graph_radius=2,
+    x=80,                          y=150,
+    graph_radius=12,
     graph_thickness=5,
     graph_start_angle=180,
     graph_unit_angle=2.7,          graph_unit_thickness=2.7,
@@ -234,7 +234,7 @@ gauge = {
 
 {
     name='memperc',                arg='',                      max_value=100,
-    x=70,                          y=300,
+    x=80,                          y=320,
     graph_radius=54,
     graph_thickness=10,
     graph_start_angle=180,
@@ -255,7 +255,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/media/eric/KING-GREY',                     max_value=100,
-    x=70,                          y=470,
+    x=80,                          y=470,
     graph_radius=54,
     graph_thickness=7,
     graph_start_angle=180,
@@ -276,7 +276,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/hdd/AuxData2/',                     max_value=100,
-    x=70,                          y=470,
+    x=80,                          y=470,
     graph_radius=42,
     graph_thickness=7,
     graph_start_angle=180,
@@ -297,7 +297,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/',                     max_value=100,
-    x=70,                          y=470,
+    x=80,                          y=470,
     graph_radius=30,
     graph_thickness=7,
     graph_start_angle=180,
@@ -319,7 +319,7 @@ gauge = {
 
 {
     name='downspeedf',           arg='enp0s31f6',                     max_value=100,
-    x=70,                          y=660,
+    x=80,                          y=660,
     graph_radius=54,
     graph_thickness=5,
     graph_start_angle=180,
@@ -340,7 +340,7 @@ gauge = {
 },
 {
     name='upspeedf',           arg='enp0s31f6',                     max_value=100,
-    x=70,                          y=660,
+    x=80,                          y=660,
     graph_radius=48,
     graph_thickness=5,
     graph_start_angle=180,
@@ -362,7 +362,7 @@ gauge = {
 
 {
     name='downspeedf',           arg='wlp3s0',                     max_value=100,
-    x=70,                          y=660,
+    x=80,                          y=660,
     graph_radius=30,
     graph_thickness=5,
     graph_start_angle=180,
@@ -383,7 +383,7 @@ gauge = {
 },
 {
     name='upspeedf',           arg='wlp3s0',                     max_value=100,
-    x=70,                          y=660,
+    x=80,                          y=660,
     graph_radius=24,
     graph_thickness=5,
     graph_start_angle=180,
