@@ -79,10 +79,12 @@ ${offset 15}${font Ubuntu:size=10,weight:normal}${color1}$nodename
 ${offset 15}${font Ubuntu:size=10,weight:normal}${color1}Uptime: $uptime
 
 # Showing CPU Graph
-${voffset 20}
+${voffset 60}
 ${offset 120}${cpugraph 40,183 666666 666666}${voffset -25}
 ${offset 90}${font Ubuntu:size=10,weight:bold}${color5}CPU
+
 # Showing TOP 5 CPU-consumers
+${voffset 40}
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color4}${top name 1}${alignr}${top cpu 1}%
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top name 2}${alignr}${top cpu 2}%
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color2}${top name 3}${alignr}${top cpu 3}%

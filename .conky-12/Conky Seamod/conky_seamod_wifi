@@ -83,6 +83,7 @@ ${offset 15}${font Ubuntu:size=10,weight:normal}${color1}$nodename
 ${offset 15}${font Ubuntu:size=10,weight:normal}${color1}Uptime: $uptime
 
 # Showing CPU Graph
+${voffset 30}
 ${offset 150}${cpugraph 40,183 666666 666666}${voffset -25}
 ${offset 104}${font Ubuntu:size=10,weight:bold}${color5}CPU
 
@@ -94,7 +95,7 @@ ${offset 105}${font Ubuntu:size=10,weight:normal}${color3}${top name 4}${alignr}
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color3}${top name 5}${alignr}${top cpu 5}%
 
 # Showing memory part with TOP 5
-${voffset 1}
+${voffset 45}
 ${offset 106}${font Ubuntu:size=10,weight:bold}${color5}MEMORY            ${memmax 1}
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color4}${top_mem name 1}${alignr}${top_mem mem 1}%
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 2}${alignr}${top_mem mem 2}%
@@ -117,8 +118,7 @@ ${offset 5}${font Ubuntu:size=7,weight:bold}${color1} HDD Free: ${font Ubuntu:si
 ${offset 5}${font Ubuntu:size=7,weight:bold}${color1} USB Free: ${font Ubuntu:size=9,weight:normal}${fs_free /media/eric/KING-GREY}${offset 9}${font Ubuntu:size=9,weight:bold}    Used: ${font Ubuntu:size=9,weight:normal}${fs_used /media/eric/KING-GREY}
 
 
-${voffset 1}
-
+${voffset 35}
 ${offset 120}${font Ubuntu:size=10,weight:bold}${color5}Wifi
 ${offset 120}${font Ubuntu:size=10,weight:bold}${color5}Ethernet
 
